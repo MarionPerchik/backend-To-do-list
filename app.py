@@ -23,7 +23,7 @@ def load_tasks_from_file():
             return json.load(file)
     except FileNotFoundError:  # Если файл не существует, вернуть пустой список
         return []
-#test
+#test1111
 def save_tasks_to_file(tasks):
     with open(JSON_FILE_PATH, 'w') as file:
         json.dump(tasks, file, indent=4)
